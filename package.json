@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/eminebozdag/redux-visualization.git",
+  "author": "eminebozdag <fyrs00@hotmail.com>",
+  "license": "MIT"
 }
