@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { updateText } from "../../reducers/actions/updateAction";
+import { updateMessage } from "../../reducers/actions/messageAction";
 import FirstChild from "../children/child-first/page";
 import SecondChild from "../children/child-second/page";
 import "./page.css";
@@ -10,7 +10,7 @@ const Parent = () => {
   const dispatch = useDispatch();
 
   const handleOnClick = () => {
-    dispatch(updateText("Default message by Parent Node"));
+    dispatch(updateMessage("Default message by Parent Node"));
   };
 
   return (

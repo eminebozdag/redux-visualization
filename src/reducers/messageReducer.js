@@ -1,12 +1,12 @@
-import { UPDATE_TEXT } from "./actions/updateAction";
+import { UPDATE_MESSAGE } from "./actions/messageAction";
 
 const defaultState = {
   text: "Default message by Parent Node",
 };
 
-export function updateReducer(state = defaultState, action) {
+export function messageReducer(state = defaultState, action) {
   switch (action.type) {
-    case UPDATE_TEXT:
+    case UPDATE_MESSAGE:
       return {
         ...state,
         text: action.text,

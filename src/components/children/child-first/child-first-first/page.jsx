@@ -1,12 +1,12 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { updateText } from "../../../../reducers/actions/updateAction";
+import { updateMessage } from "../../../../reducers/actions/messageAction";
 
 const FirstOfFirstChild = () => {
   const dispatch = useDispatch();
 
   const handleOnClick = () => {
-    dispatch(updateText("Changed by Child 1.1"));
+    dispatch(updateMessage("Changed by Child 1.1"));
   };
 
   return (

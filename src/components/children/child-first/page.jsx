@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { updateText } from "../../../reducers/actions/updateAction";
+import { updateMessage } from "../../../reducers/actions/messageAction";
 import FirstOfFirstChild from "./child-first-first/page";
 import SecondOfFirstChild from "./child-first-second/page";
 
@@ -8,7 +8,7 @@ const FirstChild = () => {
   const dispatch = useDispatch();
 
   const handleOnClick = () => {
-    dispatch(updateText("Changed by Child 1"));
+    dispatch(updateMessage("Changed by Child 1"));
   };
 
   return (
