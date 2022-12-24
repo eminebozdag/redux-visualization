@@ -30,8 +30,8 @@ $ yarn add @reduxjs/toolkit
 5. Create the store: in `store`
 6. Provide store to App component: in `index.js`
 
-Child 1 and its children use "useDispatch()" and send the corresponding transaction to the corresponding reducer. Reducer updates the state at the end of the action according to the incoming action.
-So while it is possible to update the message when clicking on child1 and its subschilds, it is not possible for child2 nor its subschilds. Do not hesitate to apply it yourself, you will be able to see the difference by trying it.
+Child1 and its children use "useDispatch()" and send the corresponding transaction to the corresponding reducer. Reducer updates the state at the end of the action according to the incoming action.
+So while it is possible to update the message when clicking on child1 and its children, it is not possible for child2 nor its children. Do not hesitate to apply it yourself, you will be able to see the difference by trying it.
 
 ## Clone & Download
 
